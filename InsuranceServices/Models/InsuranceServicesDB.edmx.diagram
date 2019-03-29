@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="750ee992390849379704ea0b323f0988" Name="Diagram1">
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.BonusMalus" Width="1.5" PointX="8.25" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.Car" Width="1.5" PointX="9" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CarGlobalToInsuranceType" Width="1.5" PointX="8.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CarGlobalType" Width="1.5" PointX="6" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CarInsuranceType" Width="1.5" PointX="6" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.Chart" Width="1.5" PointX="3" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CityOfRegistration" Width="1.5" PointX="3.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CityOrCountryOfRegToZone" Width="1.5" PointX="6" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.Client" Width="1.5" PointX="11.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.ClientCar" Width="1.5" PointX="11.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.Company" Width="1.5" PointX="0.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CompanyContractTypes" Width="1.5" PointX="11.25" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CompanyDetail" Width="1.5" PointX="3" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CompanyFeature" Width="1.5" PointX="0.75" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CompanyFeatureToCompany" Width="1.5" PointX="3" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CompanyIMG" Width="1.5" PointX="6" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CompanyMiddleman" Width="1.5" PointX="6" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.Contract" Width="1.5" PointX="13.5" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.ContractFranchise" Width="1.5" PointX="16.5" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.ContractType" Width="1.5" PointX="9" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.CountryOfRegistration" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.DiscountByQuantity" Width="1.5" PointX="11.25" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.DiscountForClientWithPrivilegies" Width="1.5" PointX="11.25" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.Document" Width="1.5" PointX="16.5" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.DocumentType" Width="1.5" PointX="9" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.Franchise" Width="1.5" PointX="14.25" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.ImageType" Width="1.5" PointX="3.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.InsuranceZoneOfRegistration" Width="1.5" PointX="3.75" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.K1" Width="1.5" PointX="11.25" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.K2" Width="1.5" PointX="18.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.K3" Width="1.5" PointX="8.25" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.K4" Width="1.5" PointX="21.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.K5" Width="1.5" PointX="11.25" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.K6" Width="1.5" PointX="11.25" PointY="36.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.K7" Width="1.5" PointX="11.25" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.Middleman" Width="1.5" PointX="3.75" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.Privileges" Width="1.5" PointX="9" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.RegioneOfRegistration" Width="1.5" PointX="1.5" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InsuranceServiceBDModel.TSC" Width="1.5" PointX="3.75" PointY="33.75" IsExpanded="true" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__BonusMalu__IdCar__3DE82FB7" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__BonusMalu__IdCom__2057CCD0" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__BonusMalu__IdCon__22401542" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__BonusMalu__IdIns__214BF109" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdBonu__36470DEF" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Car__IdCarInsura__3FD07829" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__ClientCar__IdCar__681373AD" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CarGlobal__IdGlo__74794A92" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CarGlobal__IdIns__756D6ECB" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K1__IdCarInsuran__078C1F06" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K2__IdCarInsuran__0C50D423" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K3__IdCarInsuran__1209AD79" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Chart__IdCompany__5224328E" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CityOfReg__IdReg__39237A9A" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CityOrCou__IdCit__3A179ED3" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__TSC__IdCityOfReg__7E02B4CC" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CityOrCou__IdCom__02C769E9" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CityOrCou__IdIns__04AFB25B" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CityOrCou__IdTSC__03BB8E22" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Client__IdPrivil__625A9A57" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__ClientCar__IdCli__671F4F74" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdClie__2DB1C7EE" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Document__IdClie__6DCC4D03" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdClie__2EA5EC27" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CompanyDe__IdCom__3E1D39E1" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CompanyFe__IdCom__489AC854" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CompanyIM__IdCom__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CompanyMi__IdCom__4E53A1AA" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CompanyCo__IdCom__56E8E7AB" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CompanyCo__IdCon__57DD0BE4" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__ContractF__IdCom__5CA1C101" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CompanyFe__IdFea__498EEC8D" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CompanyIM__IdIma__42E1EEFE" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__CompanyMi__IdMid__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdComp__2AD55B43" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K1__IdCompanyMid__3B0BC30C" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K2__IdCompanyMid__0E391C95" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K3__IdCompanyMid__11158940" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K4__IdCompanyMid__14E61A24" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdCont__2BC97F7C" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdCont__2CBDA3B5" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdDisc__373B3228" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdDisc__382F5661" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdK1__2F9A1060" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdK2__308E3499" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdK3__318258D2" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdK4__32767D0B" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdK5__336AA144" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdK6__345EC57D" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Contract__IdK7__3552E9B6" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__ContractF__IdFra__5D95E53A" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K2__IdContractFr__0D44F85C" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K4__IdContractFr__16CE6296" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__DiscountF__IdDoc__2704CA5F" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__Document__IdDocu__6CD828CA" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K2__IdInsuranceZ__0B5CAFEA" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K3__IdInsuranceZ__3CF40B7E" ManuallyRouted="false" />
+        <AssociationConnector Association="InsuranceServiceBDModel.FK__K4__IdInsuranceZ__15DA3E5D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
